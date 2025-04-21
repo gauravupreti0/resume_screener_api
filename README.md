@@ -19,7 +19,7 @@ It uses Natural Language Processing (NLP) and a trained ML classifier to analyze
 ### What the Project Does
 
 - Resume Upload
-  A user (HR personnel, recruiter, or a system) uploads a resume file via the /classify_resume/ endpoint.
+  A user (HR personnel, recruiter, or a system) uploads a resume file via the API endpoint.
 - Text Extraction
   The backend reads the uploaded PDF and extracts all text using a Python PDF parser like pdfminer.six.
 - Text Vectorization
