@@ -7,7 +7,7 @@ app = FastAPI()
 model = joblib.load('model/resume_classifier.pkl')
 vectorizer = joblib.load('model/resume_vectorizer.pkl')
 
-@app.post('/classify_resume/')
+@app.post('/api/')
 async def classify_resume(file: UploadFile = File(...)):
     file_path = f"temp/{file.filename}"
     os.makedirs("temp", exist_ok=True)

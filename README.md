@@ -9,12 +9,12 @@ It uses Natural Language Processing (NLP) and a trained ML classifier to analyze
 
 ### Key Features
 
-- Accepts resumes in PDF format via API (/classify_resume/)
+- Accepts resumes in PDF format via API
 - Extracts raw text using PDF parsers
 - Uses TF-IDF + ML classifier to predict job role
 - Built with FastAPI and Scikit-learn
 - Supports local and containerized (Docker) deployment
-- Designed for integration into HR tech stacks, ATS tools, and recruitment workflows
+- Designed and can be used for integration into HR tech stacks, ATS tools, and recruitment workflows
 
 ### What the Project Does
 
