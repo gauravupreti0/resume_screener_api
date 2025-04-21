@@ -28,7 +28,8 @@ It uses Natural Language Processing (NLP) and a trained ML classifier to analyze
   A pre-trained Random Forest Classifier predicts the job category (e.g., "Software Engineer", "Data Analyst") based on the resume content.
 - Response Delivery
   The predicted label is returned as a JSON response:
-  ```{
+  ```
+  {
   "prediction": "Software Engineer"
   }
   ```
