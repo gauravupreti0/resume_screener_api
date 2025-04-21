@@ -1,4 +1,4 @@
-# Project introduction
+### Project introduction
 
 A FastAPI-based API that accepts resumes (PDF or text), extracts features, classifies them (e.g., software engineer, data analyst, rejected), and returns a score or decision.
 
@@ -9,12 +9,12 @@ It uses Natural Language Processing (NLP) and a trained ML classifier to analyze
 
 ### Key Features
 
-✅ Accepts resumes in PDF format via API (/classify_resume/)
-✅ Extracts raw text using PDF parsers
-✅ Uses TF-IDF + ML classifier to predict job role
-✅ Built with FastAPI and Scikit-learn
-✅ Supports local and containerized (Docker) deployment
-✅ Designed for integration into HR tech stacks, ATS tools, and recruitment workflows
+- Accepts resumes in PDF format via API (/classify_resume/)
+- Extracts raw text using PDF parsers
+- Uses TF-IDF + ML classifier to predict job role
+- Built with FastAPI and Scikit-learn
+- Supports local and containerized (Docker) deployment
+- Designed for integration into HR tech stacks, ATS tools, and recruitment workflows
 
 ### What the Project Does
 
@@ -28,9 +28,10 @@ It uses Natural Language Processing (NLP) and a trained ML classifier to analyze
   A pre-trained Random Forest Classifier predicts the job category (e.g., "Software Engineer", "Data Analyst") based on the resume content.
 - Response Delivery
   The predicted label is returned as a JSON response:
-  {
+  ```{
   "prediction": "Software Engineer"
   }
+  ```
 
 ### Tech Stack
 
